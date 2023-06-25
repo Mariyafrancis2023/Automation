@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.AutomationFramework.Tests;
 
-public class ShoppingCartTest {
+import com.naveenautomationlabs.AutomationFramework.base.TestBase;
+
+public class ShoppingCartTest extends TestBase {
 
 }

@@ -3,6 +3,7 @@ package com.naveenautomationlabs.AutomationFramework.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
 
@@ -19,12 +20,14 @@ public class YourStore extends TestBase{
 	private WebElement monitorsBtn;
 
 	public YourStore clickComponentsBtn() {
-		componentsBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(componentsBtn)).click();
+//		componentsBtn.click();
 		return new YourStore();
 	}
 	
 	public Monitors clickMonitorsBtn() {
-		monitorsBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(monitorsBtn)).click();
+//		monitorsBtn.click();
 		return new Monitors();
 	}
 }

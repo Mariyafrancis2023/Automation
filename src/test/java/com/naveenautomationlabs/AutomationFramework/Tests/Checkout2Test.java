@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.AutomationFramework.Tests;
 
-public class Checkout2Test {
+import com.naveenautomationlabs.AutomationFramework.base.TestBase;
+
+public class Checkout2Test extends TestBase {
 
 }

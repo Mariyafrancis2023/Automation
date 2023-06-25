@@ -3,6 +3,7 @@ package com.naveenautomationlabs.AutomationFramework.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
 
@@ -13,10 +14,11 @@ public class ShoppingCart extends TestBase{
 	}
 	
 	@FindBy(xpath = "//a[text()='Checkout']")
-	WebElement checkoutBtn;
+	private WebElement checkoutBtn;
 	
 	public CheckOut clickCheckoutBtn() {
-		checkoutBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(checkoutBtn)).click();
+	//	checkoutBtn.click();
 		return new CheckOut();
 	}
 }

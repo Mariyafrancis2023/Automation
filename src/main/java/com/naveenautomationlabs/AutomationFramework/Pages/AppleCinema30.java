@@ -8,6 +8,7 @@ import java.awt.event.KeyEvent;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
@@ -19,43 +20,50 @@ public class AppleCinema30 extends TestBase {
 	}
 
 	@FindBy(css = "#input-option218>div:nth-of-type(2) input")
-	WebElement radioBtn;
+	private WebElement radioBtn;
 	@FindBy(css = "input[name='option[223][]']")
-	WebElement checkboxBtn;
+	private WebElement checkboxBtn;
 	@FindBy(css = "#input-option208")
-	WebElement textInput;
+	private WebElement textInput;
 	@FindBy(css = "#input-option217")
-	WebElement selectDropDown;
+	private WebElement selectDropDown;
 	@FindBy(css = "#input-option209")
-	WebElement textareaInput;
+	private WebElement textareaInput;
 	@FindBy(css = "#button-upload222")
-	WebElement uploadFileBtn;
+	private WebElement uploadFileBtn;
 	@FindBy(css = "button#button-cart")
-	WebElement addCartBtn;
+	private WebElement addCartBtn;
 	@FindBy(css = "div.alert-success")
-	WebElement successBanner;
-	@FindBy(css = "div.alert-success>a:last-of-type")
-	WebElement shoppingCartLink;
+	private WebElement successBanner;
+//	@FindBy(xpath = "//a[text()='shopping cart']")
+//	@FindBy(css = "div.alert-success a:nth-of-type(2)")
+	@FindBy(css = "div#product-product div.alert-success a:nth-of-type(2)")
+	private WebElement shoppingCartLink;
 	
 	public void clickRadioBtn() {
-		radioBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(radioBtn)).click();
+//		radioBtn.click();
 	}
 	
 	public void clickCheckboxBtn() {
-		checkboxBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(checkboxBtn)).click();
+//		checkboxBtn.click();
 	}
 	
 	public void enterTextField() {
-		textInput.sendKeys("text field");
+		wait.until(ExpectedConditions.visibilityOf(textInput)).sendKeys("text field");
+	//	textInput.sendKeys("text field");
 	}
 	
 	public void selectFromDropDown() {
-		Select sc = new Select(selectDropDown);
+		Select sc = new Select(wait.until(ExpectedConditions.visibilityOf(selectDropDown)));
+//		Select sc = new Select(selectDropDown);
 		sc.selectByValue("1");
 	}
 	
 	public void enterTextareaField() {
-		textareaInput.sendKeys("text area field");
+		wait.until(ExpectedConditions.visibilityOf(textareaInput)).sendKeys("text area field");
+	//	textareaInput.sendKeys("text area field");
 	}
 	
 	public void clickUploadFileBtn() {
@@ -63,38 +71,47 @@ public class AppleCinema30 extends TestBase {
 		try {
 			Robot rb = new Robot();
 			rb.delay(3000);
-//			StringSelection ss = new StringSelection("C:\\Users\\me\\Desktop\\samplefile.txt");
-			StringSelection ss = new StringSelection("sample.txt");
+			//put the path of file in clipboard
+			StringSelection ss = new StringSelection("C:\\Users\\me\\Desktop\\samplefile.txt");
 			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-			rb.keyPress(KeyEvent.VK_CONTROL);
-			rb.keyPress(KeyEvent.VK_V);
+			rb.keyPress(KeyEvent.VK_CONTROL);  //press on ctrl key
+			rb.keyPress(KeyEvent.VK_V);        //press on V key
 			rb.delay(3000);
 			rb.keyRelease(KeyEvent.VK_CONTROL);
 			rb.keyRelease(KeyEvent.VK_V);
 			rb.delay(3000);
-			rb.keyPress(KeyEvent.VK_ENTER);
+			rb.keyPress(KeyEvent.VK_ENTER);    //press on enter key
 			rb.keyRelease(KeyEvent.VK_ENTER);
-			wd.switchTo().alert().accept();
+		//	sleep();
+			wait.until(ExpectedConditions.alertIsPresent()).accept();;
+		//	wd.switchTo().alert().accept();
 		} catch (AWTException e) {
 			e.printStackTrace();
-		}	
+		}			
 	}
 	
 	public void clickAddToCartBtn() {
-		addCartBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(addCartBtn)).click();
+	//	addCartBtn.click();
 	}
 	
 	public void getSuccessBannerText() {
-		successBanner.getText();
+		String banner = wait.until(ExpectedConditions.visibilityOf(successBanner)).getText();
+		System.out.println(banner);
+	//	successBanner.getText();
 	}
 	
-	public ShoppingCart clickShoppingCartLink() {
+	public ShoppingCart clickShoppingCartLink() {	
+		wait.until(ExpectedConditions.visibilityOf(shoppingCartLink));
 		shoppingCartLink.click();
+//		sleep();
+//		shoppingCartLink.click();
 		return new ShoppingCart();
 	}
 	
 	public ShoppingCart addItemToShoppingCart() {
-		clickRadioBtn();
+		sleep();
+//		clickRadioBtn();
 		clickCheckboxBtn();
 		enterTextField();
 		selectFromDropDown();
@@ -103,6 +120,14 @@ public class AppleCinema30 extends TestBase {
 		clickAddToCartBtn();
 		getSuccessBannerText();
 		return clickShoppingCartLink();
+	}
+	
+	public void sleep() {
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
 	

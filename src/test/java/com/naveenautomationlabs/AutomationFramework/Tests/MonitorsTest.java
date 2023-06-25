@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.AutomationFramework.Tests;
 
-public class MonitorsTest {
+import com.naveenautomationlabs.AutomationFramework.base.TestBase;
+
+public class MonitorsTest extends TestBase {
 
 }
