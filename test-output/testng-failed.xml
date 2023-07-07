@@ -8,14 +8,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.YourOrderHasBeenPlacedTest">
+      <class name="com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest">
         <methods>
-          <include name="vaildateOrderHasBeenPlaced"/>
-          <include name="setup"/>
-          <include name="setUpLogger"/>
           <include name="quit"/>
+          <include name="setUpLogger"/>
+          <include name="setup"/>
+          <include name="vaildateProductAvailability"/>
         </methods>
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.YourOrderHasBeenPlacedTest -->
+      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

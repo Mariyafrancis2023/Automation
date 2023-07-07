@@ -19,7 +19,8 @@ public class AppleCinema30 extends TestBase {
 		PageFactory.initElements(wd, this);
 	}
 
-	@FindBy(css = "#input-option218>div:nth-of-type(2) input")
+//	@FindBy(css = "#input-option218>div:nth-of-type(2) input")
+	@FindBy(css = "input[name='option[218]']")
 	private WebElement radioBtn;
 	@FindBy(css = "input[name='option[223][]']")
 	private WebElement checkboxBtn;
@@ -35,9 +36,9 @@ public class AppleCinema30 extends TestBase {
 	private WebElement addCartBtn;
 	@FindBy(css = "div.alert-success")
 	private WebElement successBanner;
-//	@FindBy(xpath = "//a[text()='shopping cart']")
+	@FindBy(xpath = "//a[text()='shopping cart']")
 //	@FindBy(css = "div.alert-success a:nth-of-type(2)")
-	@FindBy(css = "div#product-product div.alert-success a:nth-of-type(2)")
+//	@FindBy(css = "div#product-product div.alert-success a:nth-of-type(2)")
 	private WebElement shoppingCartLink;
 	
 	public void clickRadioBtn() {
@@ -70,16 +71,16 @@ public class AppleCinema30 extends TestBase {
 		uploadFileBtn.click();
 		try {
 			Robot rb = new Robot();
-			rb.delay(3000);
+			rb.delay(1000);
 			//put the path of file in clipboard
 			StringSelection ss = new StringSelection("C:\\Users\\me\\Desktop\\samplefile.txt");
 			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 			rb.keyPress(KeyEvent.VK_CONTROL);  //press on ctrl key
 			rb.keyPress(KeyEvent.VK_V);        //press on V key
-			rb.delay(3000);
+			rb.delay(1000);
 			rb.keyRelease(KeyEvent.VK_CONTROL);
 			rb.keyRelease(KeyEvent.VK_V);
-			rb.delay(3000);
+			rb.delay(1000);
 			rb.keyPress(KeyEvent.VK_ENTER);    //press on enter key
 			rb.keyRelease(KeyEvent.VK_ENTER);
 		//	sleep();
@@ -102,16 +103,15 @@ public class AppleCinema30 extends TestBase {
 	}
 	
 	public ShoppingCart clickShoppingCartLink() {	
-		wait.until(ExpectedConditions.visibilityOf(shoppingCartLink));
-		shoppingCartLink.click();
-//		sleep();
+//		wait.until(ExpectedConditions.visibilityOf(shoppingCartLink));
 //		shoppingCartLink.click();
+		sleep();
+		shoppingCartLink.click();
 		return new ShoppingCart();
 	}
 	
 	public ShoppingCart addItemToShoppingCart() {
-		sleep();
-//		clickRadioBtn();
+		clickRadioBtn();
 		clickCheckboxBtn();
 		enterTextField();
 		selectFromDropDown();

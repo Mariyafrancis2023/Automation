@@ -16,9 +16,18 @@ public class ShoppingCart extends TestBase{
 	@FindBy(xpath = "//a[text()='Checkout']")
 	private WebElement checkoutBtn;
 	
+	@FindBy(css = "div[class='alert alert-danger alert-dismissible']")
+	private WebElement bannerText;
+	
 	public CheckOut clickCheckoutBtn() {
 		wait.until(ExpectedConditions.elementToBeClickable(checkoutBtn)).click();
 	//	checkoutBtn.click();
 		return new CheckOut();
+	}
+	
+	public String getBannerText() {
+		String bannerMessage = wait.until(ExpectedConditions.visibilityOf(bannerText)).getText();
+		System.out.println(bannerMessage);
+		return bannerMessage;
 	}
 }

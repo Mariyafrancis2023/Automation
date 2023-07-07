@@ -13,11 +13,27 @@ public class YourStore extends TestBase{
 		PageFactory.initElements(wd, this);
 	}
 	
+	@FindBy(css = "ul.list-inline>li:nth-of-type(2) a")
+	private WebElement myAccountBtn;
+	
+	@FindBy(css = "ul.dropdown-menu>li:nth-of-type(2) a")
+	private WebElement loginBtn;
+	
 	@FindBy(css = "ul.nav>li:nth-of-type(3)  a")
 	private WebElement componentsBtn;
 	
 	@FindBy(xpath = "//a[text() = 'Monitors (2)']")
 	private WebElement monitorsBtn;
+	
+	public YourStore clickMyAccountBtn() {
+		myAccountBtn.click();
+		return new YourStore();
+	}
+	
+	public AccountLogin clickLoginBtn() {
+		loginBtn.click();
+		return new AccountLogin();
+	}
 
 	public YourStore clickComponentsBtn() {
 		wait.until(ExpectedConditions.elementToBeClickable(componentsBtn)).click();

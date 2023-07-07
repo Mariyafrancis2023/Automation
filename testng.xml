@@ -10,6 +10,9 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.naveenautomationlabs.AutomationFramework.Tests.YourOrderHasBeenPlacedTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
