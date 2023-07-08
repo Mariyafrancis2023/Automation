@@ -3958,3 +3958,383 @@
 2023-07-08 00:43:08 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
 2023-07-08 00:43:09 INFO  TestBase:15 - Retrying failed test !!!!! validateLogin for 1 times
 2023-07-08 00:43:09 INFO  TestBase:29 - Test validateLogin Skipped #######################################
+2023-07-08 10:31:03 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:07 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:07 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:31:07 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:07 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:07 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (247c6ea11477547c676be1f8b932417c)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:31:07 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:07 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:08 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (247c6ea11477547c676be1f8b932417c)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:31:08 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:31:08 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:31:08 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:31:08 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:31:08 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:09 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:10 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (247c6ea11477547c676be1f8b932417c)] -> css selector: input[value='Login']]
+2023-07-08 10:31:10 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:31:12 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:15 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:16 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:31:16 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:16 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:16 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (f70f297edf88e0345e96c8931848bf94)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:31:16 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:16 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:17 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (f70f297edf88e0345e96c8931848bf94)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:31:17 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:31:17 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:31:17 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:31:17 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:31:17 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:17 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:18 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (f70f297edf88e0345e96c8931848bf94)] -> css selector: input[value='Login']]
+2023-07-08 10:31:18 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:31:20 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:24 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:25 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:31:25 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:25 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:25 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (c7283a66bad81e47bbe2b5d6674608c1)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:31:25 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:25 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:26 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (c7283a66bad81e47bbe2b5d6674608c1)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:31:26 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:31:26 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:31:26 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:31:26 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:31:26 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:26 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:27 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (c7283a66bad81e47bbe2b5d6674608c1)] -> css selector: input[value='Login']]
+2023-07-08 10:31:27 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:31:29 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:32 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:33 INFO  TestBase:13 - Test execution started for validateUnitPrice *************************************
+2023-07-08 10:31:33 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:33 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:31:33 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (dfe6aee30f465926fc1b2599271b7844)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:31:33 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:33 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:31:34 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (dfe6aee30f465926fc1b2599271b7844)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:31:34 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:31:34 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:31:34 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:31:34 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:31:34 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:34 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:31:35 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (dfe6aee30f465926fc1b2599271b7844)] -> css selector: input[value='Login']]
+2023-07-08 10:31:35 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(3)
+2023-07-08 10:31:36 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(3)
+2023-07-08 10:31:36 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (dfe6aee30f465926fc1b2599271b7844)] -> css selector: ul.list-inline>li:nth-of-type(3)]
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: table[class='table table-bordered table-hover'] thead tr td
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: table[class='table table-bordered table-hover'] thead tr td
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Image
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Product Name
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Model
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Stock
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Unit Price
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: table[class='table table-bordered table-hover'] tbody tr
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: table[class='table table-bordered table-hover'] tbody tr
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Canon EOS 5D
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: iPhone
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: Apple Cinema 30"
+2023-07-08 10:31:37 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: MacBook
+2023-07-08 10:31:37 INFO  TestBase:158 - Got Text: $500.00
+2023-07-08 10:31:37 INFO  TestBase:18 - Test validateUnitPrice Passed
+2023-07-08 10:31:39 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:43 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:31:43 INFO  TestBase:13 - Test execution started for vaildateProductAvailability *************************************
+2023-07-08 10:31:43 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:31:43 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: ul.nav>li:nth-of-type(3)  a]
+2023-07-08 10:31:43 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:31:44 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> xpath: //a[text() = 'Monitors (2)']]
+2023-07-08 10:31:44 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:31:45 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> xpath: //span[text()='Add to Cart']]
+2023-07-08 10:31:45 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:46 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:46 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:46 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:46 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:46 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:31:47 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: input[name='option[218]']]
+2023-07-08 10:31:47 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:31:47 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: input[name='option[223][]']]
+2023-07-08 10:31:47 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option208
+2023-07-08 10:31:47 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option208
+2023-07-08 10:31:47 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option208
+2023-07-08 10:31:47 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option208
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.xpath: .//option[@value = "1"]
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.xpath: .//option[@value = "1"]
+2023-07-08 10:31:48 INFO  TestBase:96 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: #input-option217]] -> xpath: .//option[@value = "1"]]
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option209
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option209
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option209
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option209
+2023-07-08 10:31:48 INFO  TestBase:80 - Finding Element: By.cssSelector: #button-upload222
+2023-07-08 10:31:48 INFO  TestBase:85 - Found Element: By.cssSelector: #button-upload222
+2023-07-08 10:31:48 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: #button-upload222]
+2023-07-08 10:31:52 INFO  TestBase:21 - Alert accepted
+2023-07-08 10:31:52 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:52 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:52 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:52 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:52 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:52 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:31:53 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> css selector: button#button-cart]
+2023-07-08 10:31:53 INFO  TestBase:80 - Finding Element: By.cssSelector: div.alert-success
+2023-07-08 10:31:53 INFO  TestBase:85 - Found Element: By.cssSelector: div.alert-success
+2023-07-08 10:31:53 INFO  TestBase:80 - Finding Element: By.cssSelector: div.alert-success
+2023-07-08 10:31:53 INFO  TestBase:85 - Found Element: By.cssSelector: div.alert-success
+2023-07-08 10:31:53 INFO  TestBase:158 - Got Text: Success: You have added Apple Cinema 30" to your shopping cart!
+×
+2023-07-08 10:32:03 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='shopping cart']
+2023-07-08 10:32:03 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='shopping cart']
+2023-07-08 10:32:04 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> xpath: //a[text()='shopping cart']]
+2023-07-08 10:32:04 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:04 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:04 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:04 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:04 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:04 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:32:05 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (048c4592fa10d6eb1e0f3c2ff5d7e882)] -> xpath: //a[text()='Checkout']]
+2023-07-08 10:32:05 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:158 - Got Text: Products marked with *** are not available in the desired quantity or not in stock!
+×
+2023-07-08 10:32:05 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:32:05 INFO  TestBase:158 - Got Text: Products marked with *** are not available in the desired quantity or not in stock!
+×
+2023-07-08 10:32:05 INFO  TestBase:18 - Test vaildateProductAvailability Passed
+2023-07-08 10:41:25 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:28 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:28 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:41:28 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:28 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:28 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d041620bf9110552b5c09db5e6272bce)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:41:28 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:28 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:29 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d041620bf9110552b5c09db5e6272bce)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:41:29 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:41:29 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:41:29 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:41:29 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:41:30 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:30 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:31 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d041620bf9110552b5c09db5e6272bce)] -> css selector: input[value='Login']]
+2023-07-08 10:41:31 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:41:33 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:37 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:37 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:41:37 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:37 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:37 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (4e68c102aa60f06bf2b213f50084cd87)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:41:37 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:37 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:38 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (4e68c102aa60f06bf2b213f50084cd87)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:41:38 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:41:38 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:41:38 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:41:38 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:41:39 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:39 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:40 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (4e68c102aa60f06bf2b213f50084cd87)] -> css selector: input[value='Login']]
+2023-07-08 10:41:40 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:41:41 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:45 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:45 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-08 10:41:45 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:45 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:45 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8104fe2adf35da28ba8ff40c3b949946)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:41:45 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:45 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:46 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8104fe2adf35da28ba8ff40c3b949946)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:41:46 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:41:46 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:41:47 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:41:47 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:41:47 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:47 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:48 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8104fe2adf35da28ba8ff40c3b949946)] -> css selector: input[value='Login']]
+2023-07-08 10:41:48 INFO  TestBase:18 - Test validateLogin Passed
+2023-07-08 10:41:49 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:53 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:41:53 INFO  TestBase:13 - Test execution started for validateUnitPrice *************************************
+2023-07-08 10:41:53 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:53 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 10:41:53 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8bb0f250461ce574ee377601b43844d6)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 10:41:53 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:53 INFO  TestBase:85 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2) a
+2023-07-08 10:41:54 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8bb0f250461ce574ee377601b43844d6)] -> css selector: ul.dropdown-menu>li:nth-of-type(2) a]
+2023-07-08 10:41:54 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-email
+2023-07-08 10:41:54 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-email
+2023-07-08 10:41:54 INFO  TestBase:80 - Finding Element: By.cssSelector: input#input-password
+2023-07-08 10:41:54 INFO  TestBase:85 - Found Element: By.cssSelector: input#input-password
+2023-07-08 10:41:54 INFO  TestBase:80 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:54 INFO  TestBase:85 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 10:41:56 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8bb0f250461ce574ee377601b43844d6)] -> css selector: input[value='Login']]
+2023-07-08 10:41:56 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(3)
+2023-07-08 10:41:56 INFO  TestBase:85 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(3)
+2023-07-08 10:41:57 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (8bb0f250461ce574ee377601b43844d6)] -> css selector: ul.list-inline>li:nth-of-type(3)]
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: table[class='table table-bordered table-hover'] thead tr td
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: table[class='table table-bordered table-hover'] thead tr td
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Image
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Product Name
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Model
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Stock
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Unit Price
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: table[class='table table-bordered table-hover'] tbody tr
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: table[class='table table-bordered table-hover'] tbody tr
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Canon EOS 5D
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: iPhone
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: Apple Cinema 30"
+2023-07-08 10:41:57 INFO  TestBase:80 - Finding Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:85 - Found Element: By.cssSelector: td
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: MacBook
+2023-07-08 10:41:57 INFO  TestBase:158 - Got Text: $500.00
+2023-07-08 10:41:57 INFO  TestBase:18 - Test validateUnitPrice Passed
+2023-07-08 10:41:59 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:42:03 INFO  TestBase:42 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 10:42:03 INFO  TestBase:13 - Test execution started for vaildateProductAvailability *************************************
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.cssSelector: ul.nav>li:nth-of-type(3)  a
+2023-07-08 10:42:03 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: ul.nav>li:nth-of-type(3)  a]
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:03 INFO  TestBase:80 - Finding Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:03 INFO  TestBase:85 - Found Element: By.xpath: //a[text() = 'Monitors (2)']
+2023-07-08 10:42:04 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> xpath: //a[text() = 'Monitors (2)']]
+2023-07-08 10:42:04 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:80 - Finding Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:85 - Found Element: By.xpath: //span[text()='Add to Cart']
+2023-07-08 10:42:04 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> xpath: //span[text()='Add to Cart']]
+2023-07-08 10:42:04 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[218]']
+2023-07-08 10:42:06 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: input[name='option[218]']]
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: input[name='option[223][]']
+2023-07-08 10:42:06 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: input[name='option[223][]']]
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option208
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option208
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option208
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option208
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option217
+2023-07-08 10:42:06 INFO  TestBase:80 - Finding Element: By.xpath: .//option[@value = "1"]
+2023-07-08 10:42:06 INFO  TestBase:85 - Found Element: By.xpath: .//option[@value = "1"]
+2023-07-08 10:42:07 INFO  TestBase:96 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: #input-option217]] -> xpath: .//option[@value = "1"]]
+2023-07-08 10:42:07 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option209
+2023-07-08 10:42:07 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option209
+2023-07-08 10:42:07 INFO  TestBase:80 - Finding Element: By.cssSelector: #input-option209
+2023-07-08 10:42:07 INFO  TestBase:85 - Found Element: By.cssSelector: #input-option209
+2023-07-08 10:42:07 INFO  TestBase:80 - Finding Element: By.cssSelector: #button-upload222
+2023-07-08 10:42:07 INFO  TestBase:85 - Found Element: By.cssSelector: #button-upload222
+2023-07-08 10:42:07 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: #button-upload222]
+2023-07-08 10:42:11 INFO  TestBase:21 - Alert accepted
+2023-07-08 10:42:11 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:80 - Finding Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:85 - Found Element: By.cssSelector: button#button-cart
+2023-07-08 10:42:11 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> css selector: button#button-cart]
+2023-07-08 10:42:11 INFO  TestBase:80 - Finding Element: By.cssSelector: div.alert-success
+2023-07-08 10:42:12 INFO  TestBase:85 - Found Element: By.cssSelector: div.alert-success
+2023-07-08 10:42:12 INFO  TestBase:80 - Finding Element: By.cssSelector: div.alert-success
+2023-07-08 10:42:12 INFO  TestBase:85 - Found Element: By.cssSelector: div.alert-success
+2023-07-08 10:42:12 INFO  TestBase:158 - Got Text: Success: You have added Apple Cinema 30" to your shopping cart!
+×
+2023-07-08 10:42:22 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='shopping cart']
+2023-07-08 10:42:22 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='shopping cart']
+2023-07-08 10:42:23 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> xpath: //a[text()='shopping cart']]
+2023-07-08 10:42:23 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:23 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:23 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:23 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:23 INFO  TestBase:80 - Finding Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:23 INFO  TestBase:85 - Found Element: By.xpath: //a[text()='Checkout']
+2023-07-08 10:42:24 INFO  TestBase:96 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1eb3d700920471fa8f2101ef1fbf9c28)] -> xpath: //a[text()='Checkout']]
+2023-07-08 10:42:24 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:158 - Got Text: Products marked with *** are not available in the desired quantity or not in stock!
+×
+2023-07-08 10:42:24 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:80 - Finding Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:85 - Found Element: By.cssSelector: div[class='alert alert-danger alert-dismissible']
+2023-07-08 10:42:24 INFO  TestBase:158 - Got Text: Products marked with *** are not available in the desired quantity or not in stock!
+×
+2023-07-08 10:42:24 INFO  TestBase:18 - Test vaildateProductAvailability Passed
