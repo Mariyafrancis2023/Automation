@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.AutomationFramework.Pages.AppleCinema30;
@@ -19,9 +20,10 @@ public class ShoppingCartTest extends TestBase {
 	private AppleCinema30 appleCinema;
 	private ShoppingCart shoppingCart;
 	
+	@Parameters("browser")
 	@BeforeMethod
-	public void setup() {
-		initialization();
+	public void setup(String browserName) {
+		initialization(browserName);
 		yourStore = new YourStore();
 	}
 	

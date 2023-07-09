@@ -3,6 +3,7 @@ package com.naveenautomationlabs.AutomationFramework.Tests;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
@@ -18,9 +19,10 @@ public class MyWishListTest extends TestBase{
 	private MyAccount myAccount;
 	private MyWishList wishList;
 	
+	@Parameters("browser")
 	@BeforeMethod
-	public void setup() {
-		initialization();
+	public void setup(String browserName) {
+		initialization(browserName);
 		yourStore = new YourStore();
 	}
 	

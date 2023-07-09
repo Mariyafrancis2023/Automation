@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
@@ -16,9 +17,10 @@ public class AccountLoginTest extends TestBase {
 	private YourStore yourStore;
 	private AccountLogin accountLogin;
 	
+	@Parameters("browser")
 	@BeforeMethod
-	public void setup() {
-		initialization();
+	public void setup(String browserName) {
+		initialization(browserName);
 		yourStore = new YourStore();
 	}
 	

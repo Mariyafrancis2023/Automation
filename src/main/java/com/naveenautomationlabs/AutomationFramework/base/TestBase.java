@@ -58,10 +58,10 @@ public class TestBase {
 		logger.setLevel(Level.ALL);
 	}
 	
-	public void initialization() {		
+	@Parameters("browser")
+	public void initialization(String browserName) {		
 //		switch (BROWSER.getNameOfBrowser()) {
 //		String browserName = System.getProperty("browser");
-		String browserName = prop.getProperty("browser");
 		switch (browserName) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
