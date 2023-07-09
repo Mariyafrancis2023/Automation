@@ -32,7 +32,7 @@ public class TestBase {
 	public static Logger logger;
 	private WebdriverEvents events;
 	private EventFiringWebDriver eDriver;
-	private Browsers BROWSER = Browsers.CHROME;
+//	private Browsers BROWSER = Browsers.CHROME;
 	private Environments ENV = Environments.PROD;
 	
 	public TestBase() {
@@ -59,9 +59,9 @@ public class TestBase {
 	}
 	
 	public void initialization() {		
-		switch (BROWSER.getNameOfBrowser()) {
-//		String browserName = System.getProperty("browser");
-//		switch (browserName) {
+//		switch (BROWSER.getNameOfBrowser()) {
+		String browserName = System.getProperty("browser");
+		switch (browserName) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
 			break;
