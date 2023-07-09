@@ -26,9 +26,9 @@ public class YourOrderHasBeenPlacedTest extends TestBase{
 	private CheckoutDetails checkoutDetails;
 	private YourOrderHasBeenPlaced orderPlaced;
 	
-	@Parameters("browser")
 	@BeforeMethod
-	public void setup(String browserName) {
+	public void setup() {
+		String browserName = System.getProperty("browser");
 		initialization(browserName);
 		yourStore = new YourStore();
 	}

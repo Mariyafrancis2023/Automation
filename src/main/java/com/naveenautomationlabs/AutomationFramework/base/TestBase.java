@@ -58,7 +58,6 @@ public class TestBase {
 		logger.setLevel(Level.ALL);
 	}
 	
-	
 	public void initialization(String browserName) {		
 //		switch (BROWSER.getNameOfBrowser()) {
 //		String browserName = System.getProperty("browser");

@@ -20,9 +20,9 @@ public class ShoppingCartTest extends TestBase {
 	private AppleCinema30 appleCinema;
 	private ShoppingCart shoppingCart;
 	
-	@Parameters("browser")
 	@BeforeMethod
-	public void setup(String browserName) {
+	public void setup() {
+		String browserName = System.getProperty("browser");
 		initialization(browserName);
 		yourStore = new YourStore();
 	}

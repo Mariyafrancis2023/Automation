@@ -19,9 +19,9 @@ public class MyWishListTest extends TestBase{
 	private MyAccount myAccount;
 	private MyWishList wishList;
 	
-	@Parameters("browser")
 	@BeforeMethod
-	public void setup(String browserName) {
+	public void setup() {
+		String browserName = System.getProperty("browser");
 		initialization(browserName);
 		yourStore = new YourStore();
 	}
