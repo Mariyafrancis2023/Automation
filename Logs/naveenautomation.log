@@ -4338,3 +4338,11 @@
 2023-07-08 10:42:24 INFO  TestBase:158 - Got Text: Products marked with *** are not available in the desired quantity or not in stock!
 ×
 2023-07-08 10:42:24 INFO  TestBase:18 - Test vaildateProductAvailability Passed
+2023-07-09 14:19:04 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-09 14:19:04 INFO  TestBase:29 - Test validateLogin Skipped #######################################
+2023-07-09 14:19:04 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-09 14:19:04 INFO  TestBase:29 - Test validateLogin Skipped #######################################
+2023-07-09 14:19:04 INFO  TestBase:13 - Test execution started for validateLogin *************************************
+2023-07-09 14:19:04 INFO  TestBase:29 - Test validateLogin Skipped #######################################
+2023-07-09 14:19:04 INFO  TestBase:13 - Test execution started for validateUnitPrice *************************************
+2023-07-09 14:19:04 INFO  TestBase:29 - Test validateUnitPrice Skipped #######################################
