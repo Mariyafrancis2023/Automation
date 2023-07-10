@@ -58,9 +58,9 @@ public class TestBase {
 		logger.setLevel(Level.ALL);
 	}
 	
-	public void initialization(String browserName) {		
+	public void initialization() {		
 //		switch (BROWSER.getNameOfBrowser()) {
-//		String browserName = System.getProperty("browser");
+		String browserName = System.getProperty("browser");
 		switch (browserName) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();

@@ -1,87 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-05T20:57:49Z" name="Surefire suite" finished-at="2023-07-05T20:59:06Z" duration-ms="76488">
+  <suite started-at="2023-07-09T21:15:11 EDT" name="Surefire suite" finished-at="2023-07-09T21:15:49 EDT" duration-ms="38135">
     <groups>
     </groups>
-    <test started-at="2023-07-05T20:57:49Z" name="Surefire test" finished-at="2023-07-05T20:59:06Z" duration-ms="76488">
+    <test started-at="2023-07-09T21:15:11 EDT" name="Surefire test" finished-at="2023-07-09T21:15:49 EDT" duration-ms="38135">
       <class name="com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@72967906]" started-at="2023-07-05T20:58:03Z" name="setUpLogger" finished-at="2023-07-05T20:58:03Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@7d20d0b]" started-at="2023-07-09T21:15:39 EDT" name="setUpLogger" finished-at="2023-07-09T21:15:39 EDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@72967906]" started-at="2023-07-05T20:58:03Z" name="setup" finished-at="2023-07-05T20:58:08Z" duration-ms="4908" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@7d20d0b]" started-at="2023-07-09T21:15:39 EDT" name="setup" finished-at="2023-07-09T21:15:44 EDT" duration-ms="5361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateUnitPrice()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@72967906]" started-at="2023-07-05T20:58:08Z" name="validateUnitPrice" finished-at="2023-07-05T20:58:12Z" duration-ms="3802" status="PASS">
+        <test-method signature="validateUnitPrice()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@7d20d0b]" started-at="2023-07-09T21:15:44 EDT" name="validateUnitPrice" finished-at="2023-07-09T21:15:49 EDT" duration-ms="4491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUnitPrice -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@72967906]" started-at="2023-07-05T20:58:12Z" name="quit" finished-at="2023-07-05T20:58:12Z" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest@7d20d0b]" started-at="2023-07-09T21:15:49 EDT" name="quit" finished-at="2023-07-09T21:15:49 EDT" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest -->
-      <class name="com.naveenautomationlabs.AutomationFramework.AppTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:57:49Z" name="setUpLogger" finished-at="2023-07-05T20:57:49Z" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:57:49Z" name="setUp" finished-at="2023-07-05T20:57:56Z" duration-ms="6969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:57:56Z" name="test" finished-at="2023-07-05T20:57:58Z" duration-ms="1313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:57:58Z" name="quit" finished-at="2023-07-05T20:57:58Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:57:58Z" name="setUp" finished-at="2023-07-05T20:58:03Z" duration-ms="5352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateTitle()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:58:03Z" name="validateTitle" finished-at="2023-07-05T20:58:03Z" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.AppTest@67c27493]" started-at="2023-07-05T20:58:03Z" name="quit" finished-at="2023-07-05T20:58:03Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.AppTest -->
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest@5b8dfcc1]" started-at="2023-07-05T20:58:38Z" name="setUpLogger" finished-at="2023-07-05T20:58:38Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest@5b8dfcc1]" started-at="2023-07-05T20:58:38Z" name="setup" finished-at="2023-07-05T20:58:43Z" duration-ms="4842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="vaildateProductAvailability()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest@5b8dfcc1]" started-at="2023-07-05T20:58:43Z" name="vaildateProductAvailability" finished-at="2023-07-05T20:59:05Z" duration-ms="22371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vaildateProductAvailability -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest@5b8dfcc1]" started-at="2023-07-05T20:59:05Z" name="quit" finished-at="2023-07-05T20:59:06Z" duration-ms="302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest -->
       <class name="com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:12Z" name="setUpLogger" finished-at="2023-07-05T20:58:12Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:11 EDT" name="setUpLogger" finished-at="2023-07-09T21:15:11 EDT" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:14Z" name="setup" finished-at="2023-07-05T20:58:19Z" duration-ms="5134" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:12 EDT" name="setup" finished-at="2023-07-09T21:15:19 EDT" duration-ms="7152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:19Z" name="validateLogin" data-provider="login_data" finished-at="2023-07-05T20:58:22Z" duration-ms="2622" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:19 EDT" name="validateLogin" data-provider="login_data" finished-at="2023-07-09T21:15:22 EDT" duration-ms="2894" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:22Z" name="quit" finished-at="2023-07-05T20:58:22Z" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:22 EDT" name="quit" finished-at="2023-07-09T21:15:23 EDT" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:22Z" name="setup" finished-at="2023-07-05T20:58:27Z" duration-ms="4772" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:23 EDT" name="setup" finished-at="2023-07-09T21:15:28 EDT" duration-ms="5082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:27Z" name="validateLogin" data-provider="login_data" finished-at="2023-07-05T20:58:30Z" duration-ms="2472" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:28 EDT" name="validateLogin" data-provider="login_data" finished-at="2023-07-09T21:15:30 EDT" duration-ms="2104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,15 +73,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:30Z" name="quit" finished-at="2023-07-05T20:58:30Z" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:30 EDT" name="quit" finished-at="2023-07-09T21:15:30 EDT" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:30Z" name="setup" finished-at="2023-07-05T20:58:35Z" duration-ms="5339" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:30 EDT" name="setup" finished-at="2023-07-09T21:15:36 EDT" duration-ms="5661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLogin(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:35Z" name="validateLogin" data-provider="login_data" finished-at="2023-07-05T20:58:38Z" duration-ms="2756" status="PASS">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:36 EDT" name="validateLogin" data-provider="login_data" finished-at="2023-07-09T21:15:38 EDT" duration-ms="2431" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@1a482e36]" started-at="2023-07-05T20:58:38Z" name="quit" finished-at="2023-07-05T20:58:38Z" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest@7817fd62]" started-at="2023-07-09T21:15:38 EDT" name="quit" finished-at="2023-07-09T21:15:39 EDT" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

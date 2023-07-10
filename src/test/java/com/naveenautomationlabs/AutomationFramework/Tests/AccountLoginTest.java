@@ -19,8 +19,9 @@ public class AccountLoginTest extends TestBase {
 	
 	@BeforeMethod
 	public void setup() {
-		String browserName = System.getProperty("browser");
-		initialization(browserName);
+//		String browserName = System.getProperty("browser");
+//		initialization(browserName);
+		initialization();
 		yourStore = new YourStore();
 	}
 	
