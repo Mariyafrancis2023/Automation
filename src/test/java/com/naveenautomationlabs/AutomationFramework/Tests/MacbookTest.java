@@ -5,16 +5,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
-import com.naveenautomationlabs.AutomationFramework.Pages.MyAccount;
 import com.naveenautomationlabs.AutomationFramework.Pages.YourStore;
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
 
-public class MyAccountTest extends TestBase{
+public class MacbookTest extends TestBase {
 
 	private YourStore yourStore;
-	private AccountLogin login;
-	private MyAccount myAccount;
 	
 	@BeforeMethod
 	public void setUp() {
@@ -23,12 +19,9 @@ public class MyAccountTest extends TestBase{
 	}
 	
 	@Test
-	public void validateSideNavigationMenu() {
-		yourStore.clickMyAccountBtn();
-		login = yourStore.clickLoginBtn();
-		myAccount = login.loginToPortal();
-		myAccount.navigativeSideBar("Returns");
-		Assert.assertEquals(wd.getTitle(), "Product Returns", "incorrect page");
+	public void validateProductsMenu() {
+		yourStore.navigateProducts("MacBook");
+		Assert.assertEquals(wd.getTitle(), "MacBook", "incorrect page");
 	}
 	
 	@AfterMethod

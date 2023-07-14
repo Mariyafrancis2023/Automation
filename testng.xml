@@ -14,6 +14,10 @@
 			<class name="com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest"/>
 			<class name="com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest"/>
 			<class name="com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.YourStoreTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.MacbookTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest"/>
+			<class name="com.naveenautomationlabs.AutomationFramework.Tests.RegisterAccountTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
