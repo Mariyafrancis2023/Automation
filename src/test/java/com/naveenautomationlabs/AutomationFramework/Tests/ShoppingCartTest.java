@@ -22,8 +22,6 @@ public class ShoppingCartTest extends TestBase {
 	
 	@BeforeMethod
 	public void setup() {
-	//	String browserName = System.getProperty("browser");
-	//	initialization(browserName);
 		initialization();
 		yourStore = new YourStore();
 	}
