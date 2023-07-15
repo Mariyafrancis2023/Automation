@@ -26,7 +26,6 @@ public class ShoppingCartTest extends TestBase {
 		yourStore = new YourStore();
 	}
 	
-	@Ignore
 	@Test
 	public void vaildateProductAvailability() {
 		yourStore.clickComponentsBtn();

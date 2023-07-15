@@ -32,7 +32,6 @@ public class YourOrderHasBeenPlacedTest extends TestBase{
 		yourStore = new YourStore();
 	}
 
-	@Ignore
 	@Test
 	public void vaildateOrderHasBeenPlaced() {
 		yourStore.clickComponentsBtn();

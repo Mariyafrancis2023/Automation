@@ -8,22 +8,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest">
+      <class name="com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest">
         <methods>
-          <include name="validateUnitPrice"/>
+          <include name="quit"/>
           <include name="setUpLogger"/>
           <include name="setup"/>
-          <include name="quit"/>
+          <include name="vaildateProductAvailability"/>
         </methods>
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.MyWishListTest -->
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest">
+      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.ShoppingCartTest -->
+      <class name="com.naveenautomationlabs.AutomationFramework.Tests.YourOrderHasBeenPlacedTest">
         <methods>
-          <include name="setUpLogger"/>
-          <include name="validateLogin"/>
-          <include name="quit"/>
+          <include name="vaildateOrderHasBeenPlaced"/>
           <include name="setup"/>
+          <include name="setUpLogger"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.AccountLoginTest -->
+      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.YourOrderHasBeenPlacedTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
